@@ -1,1 +1,11 @@
 rootProject.name = 'pdf_viewer_plugin'
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven { url 'https://jitpack.io' }  // for android-pdf-viewer
+    }
+}
