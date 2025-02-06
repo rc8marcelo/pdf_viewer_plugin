@@ -6,6 +6,6 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter()
-        maven { url 'https://jitpack.io' }  // for android-pdf-viewer
+        maven { url 'https://jitpack.io' }  
     }
 }
